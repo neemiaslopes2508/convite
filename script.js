@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     botao.addEventListener('click', () => {
       const mensagem = encodeURIComponent(botao.dataset.msg);
       alert("Amei sua escolha! 💌");
-      window.location.href = `https://wa.me/${numeroWhatsApp}?text=${mensagem}`;
+      window.location.href = `https://wa.me/553184887361?text=${mensagem}`;
     });
   });
 });
